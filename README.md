@@ -4,7 +4,7 @@
 
 ## Description 
 
-This is "Just Another Text Editor". This is a web-based text editor using javascript as well as Webpack and Babel.
+This is "Just Another Text Editor", a web-based text editor using javascript as well as Webpack and Babel.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -16,20 +16,13 @@ If you have found this blog outside of GitHub and wish to view the original, [vi
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-The below image shows that when the site loads, you are given a basic text editing page with a button to "Install"!
-
-When you install the function, it can be used off-line.
-
-
-![alt text](./images/loadscreen.PNG)
-
+![alt text](./images/logo.PNG)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Technology Used 
 
-| [![My Skills](https://skillicons.dev/icons?i=babel, babel,css,heroku,html,js,nodejs,vscode,github,webpack,mysql&theme=light)](https://skillicons.dev) 
+| [![My Skills](https://skillicons.dev/icons?i=babel,css,heroku,html,js,nodejs,vscode,github,webpack&theme=light)](https://skillicons.dev) 
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -46,21 +39,28 @@ When you install the function, it can be used off-line.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Usage 
 
-This application allows like-minded users to read and write about the effects of technology on books and vice versa. This CMS-style blog presents a sleek UI that is easy to use and guide yourself through.
-*************
-When a user needs to login, they are directed here:
+The below image shows that when the site loads, you are given a basic text editing page with a button to "Install"!
 
-![alt text](./img/Signup.PNG)
 
-****************
-Once logged in, a user can visit their personal dashboard. This allows them easy access to create new content, view their previous posts, and edit or delete previous posts:
 
-![alt text](./img/Dashboard.PNG)
+![alt text](./images/loadscreen.PNG)
 
-*****************
-If a user chooses to edit or a delete one of their posts, they are directed to this screen:
+You can input your text above or below and it is saved. This picture also shows that no errors are being reported in the console.
 
-![alt text](./img/Edit.PNG)
+![alt text](./images/Write%20notes%20No%20errors.PNG)
+
+
+When you click the `Install` button, an alert appears asking if you would like to install the application.
+
+If you choose to install, the application installs and is no longer a part of the browser.
+
+![alt text](./images/Breakaway.PNG)
+
+Close the application, then use the search bar to recall the application. 
+
+When you open it again, the previously notes will be available.
+
+![alt text](./images/OnComputer.PNG)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -78,7 +78,8 @@ If you have any questions about me or this project, please contact me:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Credits
 
-I could only be so fortunate to work with such amazing people as those in my cohort!
+Thank you to my fabulous cohort and all the wonderful TAs!!
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
