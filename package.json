@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
+    "mini-css-extract-plugin": "^2.7.6",
     "nodemon": "^2.0.4"
   }
 }
