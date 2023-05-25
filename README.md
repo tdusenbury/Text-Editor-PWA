@@ -22,14 +22,14 @@ The below image shows that when the site loads, you are given a basic text editi
 When you install the function, it can be used off-line.
 
 
-![alt text](./img/homepage.PNG)
+![alt text](./images/loadscreen.PNG)
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Technology Used 
 
-| [![My Skills](https://skillicons.dev/icons?i=bootstrap,heroku,html,js,nodejs,vscode,github,mysql&theme=light)](https://skillicons.dev) 
+| [![My Skills](https://skillicons.dev/icons?i=babel, babel,css,heroku,html,js,nodejs,vscode,github,webpack,mysql&theme=light)](https://skillicons.dev) 
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
