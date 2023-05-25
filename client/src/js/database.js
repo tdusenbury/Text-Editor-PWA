@@ -30,9 +30,9 @@ export const getDb = async () => {
   const request = store.get(1);
   const result = await request;
   console.log('result.value', result);
-  result
-    ? console.log('Data sent from database', result.value)
-    : console.error('GET not got');
+  // result
+  //   ? console.log('Data sent from database', result.value)
+  //   : console.error('GET not got');
   return result?.value;
 };
 initdb();
