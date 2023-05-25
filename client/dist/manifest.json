@@ -31,12 +31,12 @@
       "type": "image/png"
     }
   ],
-  "name": "Text Editor",
+  "name": "jate",
   "short_name": "jate",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
-  "description": "Never forget your thoughts!",
+  "description": "jate",
   "background_color": "#225ca3",
   "theme_color": "#225ca3"
 }

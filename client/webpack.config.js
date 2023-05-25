@@ -1,6 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
-const MiniCssExtractPlugin = require ('mini-css-extract-plugin')
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
@@ -18,18 +17,18 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Text Editor',
+        title: 'jate',
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'service-worker.js',
+        swDest: 'src-sw.js',
       }),
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Text Editor",
+        name: "jate",
         short_name: "jate",
-        description: "Never forget your thoughts!",
+        description: "jate",
         background_color: "#225ca3",
         theme_color: "#225ca3",
         start_url: "./",
@@ -42,13 +41,12 @@ module.exports = () => {
           },
         ],
       }),
-      new MiniCssExtractPlugin(),
     ],
     module: {
       rules: [
         {
           test: /\.css$/i,
-          use: [MiniCssExtractPlugin.loader, 'style-loader', 'css-loader'],
+          use: ['style-loader', 'css-loader'],
         },
         {
           test: /\.m?js$/,
